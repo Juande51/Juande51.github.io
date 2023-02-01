@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<!--link rel="icon" type="image/jpg" href="http://localhost:8000/archivocodesol/img/logos/codesol.jpg"/-->
 	<title>Error 404</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--script>
-	function error404(){
-		var urlbase = "http://localhost:8000/archivocodesol/";
-		window.location.href = urlbase;
-	}
-	function error(){
-		var urlmovil = "http://192.168.0.103:8000/archivocodesol/";
-		window.location.href = urlmovil;
-	}
-</script-->
+	<script>
+		function error404(){
+			var urlbase = "index.html";
+			window.location.href = urlbase;
+		}
+		function error(){
+			var urlmovil = "index.html";
+			window.location.href = urlmovil;
+		}
+	</script>
 	<style>
 		*{margin: 0;padding: 0;box-sizing: border-box;}
 		body{
-			/**background-image: url(http://localhost:8000/archivocodesol/img/pag404.jpg);**/
 			background-image: url(pag404.jpg);
 			background-color: black;
 			background-size: 100vw 100vh;
@@ -37,11 +35,11 @@
 			color: white;
 		}
 		.contenedor h1{
-			/**margin-top: 80px;*/
+			
 			font-size: 80pt;
 			margin-bottom: 20px;
 			text-transform: uppercase;
-			text-shadow: 10px 5px 20px #F28A80;/**#2EDF47;**/
+			text-shadow: 10px 5px 20px #F28A80;
 		}
 		.contenedor h2{
 			font-size: 40pt;
@@ -90,12 +88,11 @@
 	</style>
 </head>
 <body>
-	<!--a onclick="error404();"><img src="" style="width: 100px;height: 100px;float: left;margin-left: 150px;margin-top: -200px;border-radius: 10px;transition: .8s;"></a-->
 <div class="contenedor">
 	<h1>Error 404</h1>
 	<h2>Usted subestima el poder del lado oscuro</h2>
-	<!--a onclick="error404();" id="pc">Ir a la pagina de incio</a>
-	<a onclick="error();" id="movil">Ir a la pagina de incio</a-->
+	<a onclick="error404();" id="pc">Ir a la pagina de incio</a>
+	<a onclick="error();" id="movil">Ir a la pagina de incio</a>
 </div>
 </body>
 </html>
