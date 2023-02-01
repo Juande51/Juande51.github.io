@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!--link rel="icon" type="image/jpg" href="http://localhost:8000/archivocodesol/img/logos/codesol.jpg"/-->
+	<title>Error 404</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--script>
+	function error404(){
+		var urlbase = "http://localhost:8000/archivocodesol/";
+		window.location.href = urlbase;
+	}
+	function error(){
+		var urlmovil = "http://192.168.0.103:8000/archivocodesol/";
+		window.location.href = urlmovil;
+	}
+</script-->
+	<style>
+		*{margin: 0;padding: 0;box-sizing: border-box;}
+		body{
+			/**background-image: url(http://localhost:8000/archivocodesol/img/pag404.jpg);**/
+			background-image: url(pag404.jpg);
+			background-color: black;
+			background-size: 100vw 100vh;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		img:hover{
+			cursor: pointer;
+			box-shadow: 0px 0px 100px rgb(68,151,203);
+		}
+		#movil{display: none;}
+		.contenedor{
+			width: 50vw;
+			margin: auto;
+			text-align: center;
+			color: white;
+		}
+		.contenedor h1{
+			/**margin-top: 80px;*/
+			font-size: 80pt;
+			margin-bottom: 20px;
+			text-transform: uppercase;
+			text-shadow: 10px 5px 20px #F28A80;/**#2EDF47;**/
+		}
+		.contenedor h2{
+			font-size: 40pt;
+			margin-bottom: 150px;
+			text-shadow: 10px 5px 20px #F27405;/**#2EDF47;**/
+		}
+		.contenedor a{
+			text-decoration: none;
+			font-size: 30px;
+			color: white;
+			background: rgba(0,0,0,.2);
+			transition: .8s;
+		}
+		.contenedor a:hover{color: rgba(216,28,28,.8);cursor: pointer;}
+
+		@media screen and (max-width:1000px){
+			body{background-image: url(pag404.jpg);}
+			.contenedor{
+				width: 100vw;
+			}
+			#pc{display: none;}
+			#movil{
+				display: block;
+				text-decoration: none;
+				font-size: 30px;
+				color: white;
+				background: rgba(0,0,0,.2);
+				transition: .8s;
+		}
+		}
+		@media screen and (max-width:425px){
+			.contenedor{
+				width: 100vw;
+				margin-top: -200px;
+			}
+			.contenedor h1{
+				font-size: 50px;
+			}
+			.contenedor h2{
+				font-size: 30px;
+			}
+			img{
+				display: none;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!--a onclick="error404();"><img src="" style="width: 100px;height: 100px;float: left;margin-left: 150px;margin-top: -200px;border-radius: 10px;transition: .8s;"></a-->
+<div class="contenedor">
+	<h1>Error 404</h1>
+	<h2>Usted subestima el poder del lado oscuro</h2>
+	<!--a onclick="error404();" id="pc">Ir a la pagina de incio</a>
+	<a onclick="error();" id="movil">Ir a la pagina de incio</a-->
+</div>
+</body>
+</html>
