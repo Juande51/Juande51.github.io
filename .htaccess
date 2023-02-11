@@ -7,7 +7,7 @@ Options -Indexes
 #order deny,allow
 #deny from all
 #allow from 192.168.0.103
-#ErrorDocument 403 enmantenimiento.html
+ErrorDocument 503 enmantenimiento.html
 #<Files page.html>
  #allow from all
 #</Files>
