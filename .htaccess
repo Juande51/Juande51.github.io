@@ -1,5 +1,5 @@
-ErrorDocument 404 /SIIM/errorserv/404.html
-ErrorDocument 403 /SIIM/errorserv/error403.html
+ErrorDocument 404 404.html
+ErrorDocument 403 error403.html
 
 Options -Indexes
 
@@ -7,7 +7,7 @@ Options -Indexes
 #order deny,allow
 #deny from all
 #allow from 192.168.0.103
-#ErrorDocument 403 /SIIM/enmantenimiento.html
+#ErrorDocument 403 enmantenimiento.html
 #<Files page.html>
  #allow from all
 #</Files>
