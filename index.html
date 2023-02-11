@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html>
-<title>Juan de Dios Montoya Durán</title>
+<title>Juan de Dios Montoya Duran</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
 <head>
-  <link rel="icon" href="https://www.flaticon.es/icono-premium/html_1183671?term=html&related_id=1183671">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1183/1183671.png">
 <style>
+	.general{
+		margin: 0 auto;
+	}
+	.contenedorimg{
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+	}
+	.contenedorimg img{
+		margin: 0 auto;
+		height:50%;
+		width:50%;
+		border-radius:100%;
+	}
+	/*.txt{
+		position: relative;
+		z-index: 999;
+		margin-top: -80px;
+	}*/
+	.txt h1,p{
+		text-align: center;
+		margin: 0;
+	}
+
 .flex-container {
-  display: flex;
-  /*background-color: DodgerBlue;*/
+	width: 100%;
+	margin: auto;
+  	display: flex;
+  	justify-content: center;
+  	/*background-color: dodgerblue;*/
 }
 
-.flex-container > div {
+.flex-container  .conosimiento {
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
@@ -26,21 +55,40 @@
   a:hover{
     color: rgba(216,28,28,.8);cursor: pointer;
   }
+
+  @media screen and (min-width: 320px) and (max-width: 768px){
+  	.contenedorimg img{
+		margin: 0 auto;
+		height:50%;
+		width:50%;
+		border-radius:100%;
+	}
+	.flex-container{
+		width: 80%;
+		display: flex;
+  		flex-direction:column;
+	}
+  }
 </style>
 </head>
 <body>
-  <a href="404.html">Error 404</a>
-<img src="IMG_20220801_080453.jpg" style="height:50%; width:50%; display:aling-center; border-radius:100%;">
-<h1>Juan De Dios Montoya Durán</h1>
-<spam>Técnico en Informática</spam>
-<div class="flex-container">
-  <div>HTML</div>
-  <div>CSS</div>
-  <div>SQL</div>
-  <div>PHP</div>  
+<a href="404.html">Error 404</a>
+<div class="general">
+<div class="contenedorimg">
+	<img src="https://github.com/Juande51/Juande51.github.io/blob/main/IMG_20220801_080453.jpg?raw=true">
 </div>
-
-<p><em>Soy muy curioso y me gusta saber como funcionan las cosas</em>.</p>
+<div class="txt">
+	<h1>Juan De Dios Montoya Durán</h1>
+	<p>Técnico en Informática</p>
+	<p><em>Soy muy curioso y me gusta saber como funcionan las cosas.</em></p>
+</div>
+<div class="flex-container">
+	<div class="conosimiento">HTML</div>
+  	<div class="conosimiento">CSS</div>
+  	<div class="conosimiento">SQL</div>
+  	<div class="conosimiento">PHP</div>  
+</div>
+</div>
 
 </body>
 </html>
