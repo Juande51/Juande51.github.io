@@ -6,8 +6,8 @@ Options -Indexes
 Options +FollowSymlinks
 RewriteEngine On
 RewriteBase /
-RewriteCond %{REQUEST_URI} !/enmantenimiento.html$
-RewriteRule .* /enmantenimiento.html [L]
+RewriteCond %{REQUEST_URI} !/maintenance.html$
+RewriteRule .* /maintenance.html [L]
 
 #order deny,allow
 #deny from all
