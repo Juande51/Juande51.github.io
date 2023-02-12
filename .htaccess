@@ -3,9 +3,10 @@ ErrorDocument 404 404.html
 
 Options -Indexes
 
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} https://juande51.github.io/ [NC,OR]
-RewriteRule .* - [F]
+SetEnvIfNoCase Referer "https://juande51.github.io/" bad_referer
+Order Allow,Deny
+Allow from ALL
+Deny from env=bad_referer
 
 #order deny,allow
 #deny from all
