@@ -3,10 +3,11 @@ ErrorDocument 404 404.html
 
 Options -Indexes
 
-<RequireAll>
-  Require all granted
-  Require not host https://juande51.github.io/
-</RequireAll>
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !/enmantenimiento.html$
+RewriteRule .* /enmantenimiento.html [L]
 
 #order deny,allow
 #deny from all
