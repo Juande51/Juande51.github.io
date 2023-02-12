@@ -3,11 +3,14 @@ ErrorDocument 404 404.html
 
 Options -Indexes
 
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} https://juande51.github.io/ [NC,OR]
+RewriteRule .* - [F]
 
-order deny,allow
-deny from all
+#order deny,allow
+#deny from all
 #allow from 192.168.0.103
-ErrorDocument 403 enmantenimiento.html
+#ErrorDocument 403 enmantenimiento.html
 #<Files page.html>
  #allow from all
 #</Files>
