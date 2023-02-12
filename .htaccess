@@ -3,10 +3,10 @@ ErrorDocument 404 404.html
 
 Options -Indexes
 
-SetEnvIfNoCase Referer "https://juande51.github.io/" bad_referer
-Order Allow,Deny
-Allow from ALL
-Deny from env=bad_referer
+<RequireAll>
+  Require all granted
+  Require not host https://juande51.github.io/
+</RequireAll>
 
 #order deny,allow
 #deny from all
