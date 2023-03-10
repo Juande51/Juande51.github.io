@@ -64,6 +64,7 @@ color: rgba(216,28,28,.8);cursor: pointer;
 
     .flex-container  .conosimiento{
         width: 80vw;
+        background-color: yellow;
     }
 
 }
