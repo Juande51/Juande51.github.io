@@ -50,6 +50,9 @@ color: rgba(216,28,28,.8);cursor: pointer;
 }*/
 
 @media screen and (min-width: 320px) and (max-width: 1600){
+    .general{
+        background-color: magenta;
+    }
   .contenedorimg img{
     margin: 0 auto;
     height:50%;
