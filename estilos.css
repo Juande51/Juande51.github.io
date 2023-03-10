@@ -49,9 +49,9 @@ a:hover{
 color: rgba(216,28,28,.8);cursor: pointer;
 }*/
 
-@media screen and (min-width: 320px) and (max-width: 1600){
+@media screen and (min-width: 320px) and (max-width: 1600px){
     .general{
-        background-color: magenta;
+        background-color: rgb(179, 58, 179);
     }
   .contenedorimg img{
     margin: 0 auto;
