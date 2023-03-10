@@ -28,7 +28,7 @@ width: 100%;
 margin: auto;
   display: flex;
   justify-content: center;
-  /*background-color: dodgerblue;*/
+  background-color: dodgerblue;
 }
 
 .flex-container  .conosimiento {
