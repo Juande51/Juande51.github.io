@@ -24,11 +24,11 @@
 }
 
 .flex-container {
-width: 100%;
-margin: auto;
-  display: flex;
-  justify-content: center;
-  background-color: dodgerblue;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: dodgerblue;
 }
 
 .flex-container  .conosimiento {
@@ -59,7 +59,8 @@ color: rgba(216,28,28,.8);cursor: pointer;
 .flex-container{
     width: 80%;
     display: flex;
-      flex-direction:column;
+    flex-direction:column;
+    background-color: magenta;
 }
 
     .flex-container  .conosimiento{
