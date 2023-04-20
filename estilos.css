@@ -58,7 +58,16 @@ color: rgba(216,28,28,.8);cursor: pointer;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap:30px;
-    background-color: purple;
+    background-color: rgb(128, 0, 128);
+}
+.links a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition: .8s;
+}
+.links a:hover{
+    color: rgba(216,28,28,.8);cursor: pointer;
 }
 @media screen and (min-width: 320px) and (max-width: 800px){
     
