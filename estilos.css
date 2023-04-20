@@ -9,8 +9,8 @@ body{margin:0;}
 }
 .contenedorimg img{
     margin: auto;
-    height:50%;
-    width:50%;
+    height:20%;
+    width:20%;
     border-radius:100%;
     cursor:pointer;
 }
