@@ -68,7 +68,7 @@ color: rgba(216,28,28,.8);cursor: pointer;
 }
 .links a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 12px;
     color: white;
     transition: .8s;
 }
