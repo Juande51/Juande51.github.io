@@ -55,11 +55,10 @@ color: rgba(216,28,28,.8);cursor: pointer;
 }*/
 
 .links{
-    display: flex;
-    align-items: flex-start;
-    gap:40px;
-    margin: 0 30px;
-    color: red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px;
+    background-color: purple;
 }
 @media screen and (min-width: 320px) and (max-width: 800px){
     
