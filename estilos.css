@@ -13,6 +13,10 @@ body{margin:0;}
     width:20%;
     border-radius:100%;
     cursor:pointer;
+    transition:transform 0.4s;
+}
+.contenedorimg:hover img{
+    transform:scale(1.2);
 }
 /*.txt{
     position: relative;
