@@ -1,6 +1,5 @@
 body{
 	margin: 0;
-	background-color: chocolate;
 }
 .contenedor{
 	width: 100%;
@@ -21,7 +20,7 @@ input{
 }
 #resul1,#resul2,#resul3,#resul4,#resul5,#resul6{
 	color:black;
-	font-size: 20px;
+	font-size: 15px;
 }
 .total{
 	width: 50%;
