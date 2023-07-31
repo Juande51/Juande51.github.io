@@ -18,9 +18,9 @@ input{
 	width: 50%;
 	margin-left: 25px;
 }
-#resul1,#resul2,#resul3,#resul4,#resul5,#resul6{
+#resul1,#resul2,#resul3,#resul4,#resul5,#resul6,#total{
 	color:black;
-	font-size: 15px;
+	font-size: 20px;
 }
 .total{
 	width: 50%;
