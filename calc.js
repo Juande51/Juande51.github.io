@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    alert("Hola");
+    //alert("Hola");
 
     $("#mil").keyup(function () {
    var value = $(this).val();
