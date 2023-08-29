@@ -37,10 +37,16 @@ $(document).ready(function(){
    $("#resul6").val(resultado6);
    });
 
+   $("#diez").keyup(function (){
+    var value=$(this).val();
+    var resultado7=value * 10;
+    $("result7").val(resultado7);
+   });
+
 
    $("button").click(function(){
        //alert("hola");
-       var total=parseFloat($("#resul1").val()) + parseFloat($("#resul2").val())+parseFloat($("#resul3").val())+parseFloat($("#resul4").val())+parseFloat($("#resul5").val())+parseFloat($("#resul6").val());
+       var total=parseFloat($("#resul1").val()) + parseFloat($("#resul2").val())+parseFloat($("#resul3").val())+parseFloat($("#resul4").val())+parseFloat($("#resul5").val())+parseFloat($("#resul6").val())+parseFloat($("#resul7").val());
        $("#total").val(total);
    })
    
