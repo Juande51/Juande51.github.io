@@ -40,7 +40,7 @@ $(document).ready(function(){
    $("#diez").keyup(function (){
     var value=$(this).val();
     var resultado7=value * 10;
-    $("result7").val(resultado7);
+    $("#resul7").val(resultado7);
    });
 
 
