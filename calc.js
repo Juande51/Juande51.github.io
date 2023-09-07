@@ -43,10 +43,34 @@ $(document).ready(function(){
     $("#resul7").val(resultado7);
    });
 
+   $("#cinco").keyup(function (){
+    var value=$(this).val();
+    var resultado8=value * 5;
+    $("#resul8").val(resultado8);
+   });
+
+   $("#dos").keyup(function (){
+    var value=$(this).val();
+    var resultado9=value * 2;
+    $("#resul9").val(resultado9);
+   });
+
+   $("#uno").keyup(function (){
+    var value=$(this).val();
+    var resultado10=value * 1;
+    $("#resul10").val(resultado10);
+   });
+
+   $("#ccentavo").keyup(function (){
+    var value=$(this).val();
+    var resultado11=value * .5;
+    $("#resul11").val(resultado11);
+   });
+
 
    $("button").click(function(){
        //alert("hola");
-       var total=parseFloat($("#resul1").val()) + parseFloat($("#resul2").val())+parseFloat($("#resul3").val())+parseFloat($("#resul4").val())+parseFloat($("#resul5").val())+parseFloat($("#resul6").val())+parseFloat($("#resul7").val());
+       var total=parseFloat($("#resul1").val()) + parseFloat($("#resul2").val())+parseFloat($("#resul3").val())+parseFloat($("#resul4").val())+parseFloat($("#resul5").val())+parseFloat($("#resul6").val())+parseFloat($("#resul7").val())+parseFloat($("#resul8").val())+parseFloat($("#resul9").val())+parseFloat($("#resul10").val())+parseFloat($("#resul11").val());
        $("#total").val(total);
    })
    
