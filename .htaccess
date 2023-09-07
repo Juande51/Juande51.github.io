@@ -3,6 +3,8 @@ ErrorDocument 404 404.html
 
 Options -Indexes
 
+deny all
+
 
 #order deny,allow
 #deny from all
