@@ -1,16 +1,13 @@
 ErrorDocument 404 404.html
-#ErrorDocument 403 error403.html
 
 Options -Indexes
 
 deny all
 
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|log|bak|txt)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
 
-#order deny,allow
-#deny from all
-#allow from 192.168.0.103
-#ErrorDocument 403 enmantenimiento.html
-#<Files page.html>
- #allow from all
-#</Files>
+
 
