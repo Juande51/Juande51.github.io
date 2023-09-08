@@ -16,8 +16,8 @@ body {
 
 .contenedorimg img {
     margin: auto;
-    height: 20%;
-    width: 20%;
+    height: 45%;
+    width: 45%;
     border-radius: 100%;
     cursor: pointer;
     transition: transform 0.4s;
@@ -104,8 +104,8 @@ color: rgba(216,28,28,.8);cursor: pointer;
 
     .contenedorimg img {
         margin-top: 20px;
-        height: 20%;
-        width: 20%;
+        height: 40%;
+        width: 40%;
         border-radius: 100%;
     }
 
