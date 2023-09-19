@@ -40,4 +40,10 @@ input{
 	.contenedor{
 		background-color: rgba(93, 18, 179, 0.616);
 	}
+	label{
+	width: 50%;
+        }
+        input{
+	width: 50%;
+        }
 }
