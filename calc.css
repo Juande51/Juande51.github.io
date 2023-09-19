@@ -1,4 +1,4 @@
-body{
+50body{
 	margin: 0;
 }
 .contenedor{
@@ -45,5 +45,6 @@ input{
         }
         input{
 	width: 50%;
+	height:25%;
         }
 }
