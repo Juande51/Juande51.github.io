@@ -41,12 +41,12 @@ input{
 		background-color: rgba(93, 18, 179, 0.616);
 	}
 	label{
-	font-size:45px;
+	font-size:25px;
         }
         input{
 	width: 50%;
 	height:40px;
-	/**font-size:20px;**/
+	font-size:20px;
         }
 	#resul1,#resul2,#resul3,#resul4,#resul5,#resul6,#resul7,#resul8,#resul9,#resul10,#resul11{
 	height:40px;
