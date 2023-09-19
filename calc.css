@@ -27,6 +27,7 @@ input{
 	font-size: 15px;
 }
 .total{
+	display:block;
 	width: 50%;
 	margin-left: 25px;
 	margin-top: 15px;
@@ -54,5 +55,6 @@ input{
 	}
 	.total{
 	height:40px;
+	font-size:22px;
 	}
 }
