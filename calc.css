@@ -33,7 +33,7 @@ input{
 }
 #total{
 	color: black;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 800px){
@@ -51,5 +51,8 @@ input{
 	#resul1,#resul2,#resul3,#resul4,#resul5,#resul6,#resul7,#resul8,#resul9,#resul10,#resul11{
 	height:40px;
 	font-size:20px;
+	}
+	.total{
+	height:40px;
 	}
 }
