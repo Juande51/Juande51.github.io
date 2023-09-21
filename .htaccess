@@ -4,14 +4,16 @@ Options -Indexes
 
 #deny all
 
-<Files .htaccess>
-    order allow,deny 
-    deny from all
+<Files ".ht*">
+    Require all denied
 </Files>
 
 <FilesMatch "\.(htaccess|htpasswd|ini|phps|log|bak|txt|js)$">
- Order Allow,Deny
- Deny from all
+ #Order Allow,Deny
+ #Deny from all
+
+ Require all denied
+
 </FilesMatch>
 
 
