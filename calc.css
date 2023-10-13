@@ -10,12 +10,13 @@ body{
 	flex-direction: column;
 	overflow: auto;
 }
-label{
+.contenedor label{
 	width: 50%;
 	margin-top: 15px;
+	margin-bottom: 10px;
 	margin-left: 15px;
 }
-input{
+.contenedor input{
 	width: 50%;
 	margin-left: 25px;
 	margin-bottom: 8px;
@@ -26,8 +27,8 @@ input{
 	color:black;
 	font-size: 15px;
 }
-.total{
-	display:block;
+.contenedor .total{
+	/*display:block;*/
 	width: 50%;
 	margin-left: 25px;
 	margin-top: 15px;
@@ -37,24 +38,52 @@ input{
 	font-size: 20px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 800px){
+@media screen and (min-width: 320px) and (max-width: 425px){
 	.contenedor{
 		background-color: rgba(93, 18, 179, 0.616);
 	}
-	label{
-	font-size:25px;
-        }
-        input{
-	width: 50%;
-	height:40px;
-	font-size:20px;
-        }
+	.contenedor label{
+		font-size:25px;
+	}
+	.contenedor input{
+		width: calc(80%);
+		height:40px;
+		font-size:20px;
+	}
 	#resul1,#resul2,#resul3,#resul4,#resul5,#resul6,#resul7,#resul8,#resul9,#resul10,#resul11{
 	height:40px;
 	font-size:20px;
 	}
-	.total{
-	height:40px;
-	font-size:22px;
+	.contenedor .total{
+		margin: auto;
+		height:40px;
+		font-size:22px;
 	}
 }
+
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.contenedor{
+		background-color: red;
+	}
+	.contenedor label{
+		font-size:25px;
+	}
+	.contenedor input{
+		width: calc(80%);
+		margin: auto;
+		margin-bottom: 10px;
+		height:40px;
+		font-size:20px;
+	}
+	#resul1,#resul2,#resul3,#resul4,#resul5,#resul6,#resul7,#resul8,#resul9,#resul10,#resul11{
+		height:40px;
+		font-size:20px;
+	}
+	.contenedor .total{
+		margin: auto;
+		height:40px;
+		font-size:22px;
+	}
+}
+
