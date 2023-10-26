@@ -29,6 +29,9 @@ body{
 }
 .contenedor .total{
 	/*display:block;*/
+	background-color: #d7e2ff;
+	border-color: #1809f1;
+	color: #1809f1;
 	width: 50%;
 	margin-left: 25px;
 	margin-top: 15px;
@@ -56,9 +59,6 @@ body{
 	font-size:20px;
 	}
 	.contenedor .total{
-		background-color: #d7e2ff;
-		border-color: #1809f1;
-		color: #1809f1;
 		margin: auto;
 		height:40px;
 		font-size:22px;
