@@ -44,7 +44,7 @@ body {
 
 .contenedor .total {
 	/*display:block;*/
-	background-color: #d7e2ff;
+	background-color: #ebe5ff;
 	border-color: #1809f1;
 	color: #1809f1;
 	width: 50%;
@@ -90,6 +90,7 @@ body {
 
 	.contenedor .total {
 		margin: auto;
+		margin-bottom: 8px;
 		height: 40px;
 		font-size: 22px;
 	}
